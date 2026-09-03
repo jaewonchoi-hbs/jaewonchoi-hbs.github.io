@@ -105,10 +105,12 @@ Edit **`data/teaching.yaml`**:
   role: "Teaching Fellow"
   institution: "Harvard Business School"
   term: "Spring 2028"
-  instructor: "Prof. Name"
+  instructor: "Professor Name"
 ```
 
-Delete the `instructor:` line if there isn't one.
+Delete the `instructor:` line if there isn't one. The list is shown in the
+order it appears in the file, newest first — so add a new appointment at the
+**top**.
 
 ## Add a degree, an award, or a news item
 

@@ -1,20 +1,10 @@
-- course: "Managerial Accounting"
-  role: "Teaching Assistant"
-  institution: "Seoul National University"
-  term: "Fall 2023, Spring 2024"
-  instructor: "Professor Jae Yong Shin"
+# Newest first — new appointments go at the top.
 
-- course: "Managerial Accounting (MBA)"
+- course: "Preparation for the Corporate World"
   role: "Teaching Assistant"
   institution: "Seoul National University"
-  term: "February 2024"
+  term: "Fall 2025"
   instructor: "Professor Jae Yong Shin"
-
-- course: "Principles of Accounting"
-  role: "Teaching Assistant"
-  institution: "Seoul National University"
-  term: "Fall 2024"
-  instructor: "Professor Chongho Kim"
 
 - course: "Principles of Accounting"
   role: "Teaching Assistant"
@@ -22,8 +12,20 @@
   term: "Spring 2025, Fall 2025"
   instructor: "Adjunct Lecturer Seo Jeong-yeon"
 
-- course: "Preparation for the Corporate World"
+- course: "Principles of Accounting"
   role: "Teaching Assistant"
   institution: "Seoul National University"
-  term: "Fall 2025"
+  term: "Fall 2024"
+  instructor: "Professor Chongho Kim"
+
+- course: "Managerial Accounting (MBA)"
+  role: "Teaching Assistant"
+  institution: "Seoul National University"
+  term: "February 2024"
+  instructor: "Professor Jae Yong Shin"
+
+- course: "Managerial Accounting"
+  role: "Teaching Assistant"
+  institution: "Seoul National University"
+  term: "Fall 2023, Spring 2024"
   instructor: "Professor Jae Yong Shin"
