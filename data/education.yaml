@@ -1,4 +1,7 @@
-- degree: "Ph.D. in Business Administration, Accounting and Management"
+# Newest first. Keep the field of study in the degree line as a parenthetical,
+# and put honours or advisor in the note line after the institution.
+
+- degree: "Ph.D. in Business Administration (Area of Study: Accounting and Management)"
   institution: "Harvard Business School"
   year: "expected 2031"
   note: ""
@@ -8,7 +11,7 @@
   year: "2026"
   note: "Advisor: Professor Jae Yong Shin"
 
-- degree: "B.S. in Economics, summa cum laude"
+- degree: "B.S. in Economics (Concentration: Finance and Healthcare Management)"
   institution: "The Wharton School, University of Pennsylvania"
   year: "2020"
-  note: "Concentration: Finance and Healthcare Management"
+  note: "summa cum laude"
