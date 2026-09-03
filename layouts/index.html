@@ -171,7 +171,7 @@
       <li class="row">
         <span class="row-main">
           <span class="row-title">{{ .degree }}</span>
-          <span class="row-note">{{ .institution }}{{ with .note }} · {{ . }}{{ end }}</span>
+          <span class="row-note">{{ .institution }}{{ with .note }} · {{ . | markdownify }}{{ end }}</span>
         </span>
         {{- with .year }}<span class="row-meta">{{ . }}</span>{{ end }}
       </li>

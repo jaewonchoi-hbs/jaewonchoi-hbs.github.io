@@ -114,7 +114,10 @@ order it appears in the file, newest first — so add a new appointment at the
 
 ## Add a degree, an award, or a news item
 
-- **Education** — `data/education.yaml`
+- **Education** — `data/education.yaml`. Put the field of study in the
+  `degree:` line as a parenthetical, and honours or your advisor in `note:`.
+  The `note:` field accepts Markdown, so `*summa cum laude*` renders in
+  italics.
 - **Honors and awards** — `data/awards.yaml`
 - **News** — `data/news.yaml`. This section is hidden until you add something:
 
