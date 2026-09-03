@@ -1,11 +1,12 @@
+# Newest first. Add a `note:` only where the award's name doesn't convey what
+# it is — most don't need one. The field accepts Markdown.
+
 - name: "Doctoral Fellowship, Harvard Business School"
   year: "2026–2031"
 
 - name: "Delta Sigma Pi Scholarship Key, University of Pennsylvania"
   year: "2020"
+  note: "Awarded to the graduating Wharton student with the highest GPA"
 
 - name: "Beta Gamma Sigma, University of Pennsylvania"
   year: "2018"
-
-- name: "Dean's List, University of Pennsylvania"
-  year: "2015–2018"

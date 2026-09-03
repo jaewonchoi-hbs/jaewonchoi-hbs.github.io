@@ -118,7 +118,9 @@ order it appears in the file, newest first — so add a new appointment at the
   `degree:` line as a parenthetical, and honours or your advisor in `note:`.
   The `note:` field accepts Markdown, so `*summa cum laude*` renders in
   italics.
-- **Honors and awards** — `data/awards.yaml`
+- **Honors and awards** — `data/awards.yaml`. `name:` and `year:` are all most
+  entries need. Add an optional `note:` only when the award's name doesn't
+  convey what it is (it also accepts Markdown).
 - **News** — `data/news.yaml`. This section is hidden until you add something:
 
   ```yaml
