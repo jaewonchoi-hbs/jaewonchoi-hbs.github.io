@@ -1,0 +1,8 @@
+{{- $authors := .authors | default slice }}
+{{- $bits := slice }}
+{{- with $authors }}{{ $bits = $bits | append (delimit . ", " " and ") }}{{ end }}
+{{- with .venue }}{{ $bits = $bits | append . }}{{ end }}
+{{- with .year }}{{ $bits = $bits | append (printf "%v" .) }}{{ end }}
+{{- with $bits }}
+<p class="paper-meta">{{ delimit . " · " }}</p>
+{{- end }}

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="page wrap">
+  <h1>{{ .Title }}</h1>
+  {{- with .Content }}
+  <div class="prose">{{ . }}</div>
+  {{- end }}
+
+  {{- with .Pages }}
+  <ul class="page-list">
+    {{- range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- if not .Date.IsZero }}
+      <span class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></span>
+      {{- end }}
+      {{- with .Description }}<p class="meta">{{ . }}</p>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+  {{- end }}
+
+  <p class="page-back"><a href="{{ "/" | relURL }}">&larr; Back to home</a></p>
+</section>
+{{ end }}

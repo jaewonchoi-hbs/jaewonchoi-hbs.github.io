@@ -1,0 +1,8 @@
+{{- with .presentations }}
+<p class="paper-talks"><span class="paper-talks-label">Presented at</span></p>
+<ul class="paper-talks-list">
+  {{- range . }}
+  <li>{{ . }}</li>
+  {{- end }}
+</ul>
+{{- end }}

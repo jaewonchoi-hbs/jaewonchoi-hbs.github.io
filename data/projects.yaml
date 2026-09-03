@@ -1,0 +1,8 @@
+# Software, packages, and data projects.
+# Add an entry when you have one to show; the section stays hidden while this
+# file is empty.
+#
+# - name: "packagename"
+#   description: "One sentence on what it does."
+#   url: "https://github.com/username/packagename"
+#   language: "R"

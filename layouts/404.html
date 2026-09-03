@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="page wrap">
+  <h1>Page not found</h1>
+  <div class="prose">
+    <p>That page doesn't exist. It may have moved, or the link may be mistyped.</p>
+  </div>
+  <ul class="page-list">
+    <li><a href="{{ "/" | relURL }}">Home</a></li>
+    <li><a href="{{ "/#research" | relURL }}">Research</a></li>
+    <li><a href="{{ "/#teaching" | relURL }}">Teaching</a></li>
+    <li><a href="{{ "/#contact" | relURL }}">Contact</a></li>
+  </ul>
+</section>
+{{ end }}

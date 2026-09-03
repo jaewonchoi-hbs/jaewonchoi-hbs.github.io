@@ -1,0 +1,18 @@
+# Jaewon Choi
+
+Jaewon Choi is a first-year PhD student in Accounting and Management at Harvard
+Business School. He studies managerial accounting, with a focus on compensation
+and incentives, corporate disclosure, and corporate governance, using empirical
+methods drawn from economics, accounting, and finance.
+
+## Key pages
+
+- Home and full profile: https://jaewonchoi-hbs.github.io/
+- Research: https://jaewonchoi-hbs.github.io/#research
+- Teaching: https://jaewonchoi-hbs.github.io/#teaching
+- Curriculum vitae (PDF): https://jaewonchoi-hbs.github.io/files/cv.pdf
+- Contact: https://jaewonchoi-hbs.github.io/#contact
+
+## Contact
+
+Email: jachoi@hbs.edu

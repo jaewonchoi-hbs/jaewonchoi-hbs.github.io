@@ -1,0 +1,65 @@
+baseURL: "https://jaewonchoi-hbs.github.io/"
+title: "Jaewon Choi"
+locale: "en-us"
+
+# We ship our own static/robots.txt, so Hugo should not generate one.
+enableRobotsTXT: false
+
+# No tag or category pages: they would be empty and would show up in the
+# sitemap as dead ends.
+disableKinds: ["taxonomy", "term"]
+
+params:
+  author: "Jaewon Choi"
+  role: "PhD Student, Accounting and Management"
+  institution: "Harvard Business School"
+  yearInProgram: "first-year PhD student"
+  email: "jachoi@hbs.edu"
+  office: "Wyss Hall 202F, 20 N Harvard Street, Boston, MA 02163"
+  description: "Jaewon Choi is a PhD student in Accounting and Management at Harvard Business School, studying compensation and incentives, disclosure, and corporate governance."
+  tagline: "I am interested in managerial accounting research, especially in the areas of compensation and incentives, disclosure, and corporate governance."
+  photo: "images/photo.jpg"
+  photoAlt: "Jaewon Choi"
+  cv: "files/cv.pdf"
+
+  interests:
+    - "Compensation and incentives"
+    - "Corporate disclosure"
+    - "Corporate governance"
+    - "Managerial accounting"
+
+  social:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/jaewon-choi-757b20126/"
+      icon: "linkedin"
+
+  mysite:
+    credit: true
+    discovery: true
+
+menu:
+  main:
+    - name: "About"
+      url: "/#about"
+      weight: 10
+    - name: "Research"
+      url: "/#research"
+      weight: 20
+    - name: "Teaching"
+      url: "/#teaching"
+      weight: 30
+    - name: "CV"
+      url: "/files/cv.pdf"
+      weight: 40
+    - name: "Contact"
+      url: "/#contact"
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
