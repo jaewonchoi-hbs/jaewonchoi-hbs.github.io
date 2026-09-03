@@ -163,6 +163,23 @@
   </section>
   {{- end }}
 
+  {{- if $education }}
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <ul class="row-list">
+      {{- range $education }}
+      <li class="row">
+        <span class="row-main">
+          <span class="row-title">{{ .degree }}</span>
+          <span class="row-note">{{ .institution }}{{ with .note }} · {{ . }}{{ end }}</span>
+        </span>
+        {{- with .year }}<span class="row-meta">{{ . }}</span>{{ end }}
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
   {{- if $teaching }}
   <section class="section" id="teaching">
     <h2>Teaching</h2>
@@ -176,23 +193,6 @@
           </span>
         </span>
         {{- with .term }}<span class="row-meta">{{ . }}</span>{{ end }}
-      </li>
-      {{- end }}
-    </ul>
-  </section>
-  {{- end }}
-
-  {{- if $education }}
-  <section class="section" id="education">
-    <h2>Education</h2>
-    <ul class="row-list">
-      {{- range $education }}
-      <li class="row">
-        <span class="row-main">
-          <span class="row-title">{{ .degree }}</span>
-          <span class="row-note">{{ .institution }}{{ with .note }} · {{ . }}{{ end }}</span>
-        </span>
-        {{- with .year }}<span class="row-meta">{{ . }}</span>{{ end }}
       </li>
       {{- end }}
     </ul>
