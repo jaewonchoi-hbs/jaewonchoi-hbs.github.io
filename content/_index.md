@@ -12,7 +12,7 @@ Before coming to Harvard, I completed an M.S. in Business Administration
 Jae Yong Shin. As his research assistant, I worked on human-capital measures
 for Korean firms, including voluntary turnover and employee satisfaction data.
 
-I also have a B.S. in Economics (Concentration: Finance and Healthcare
+I also have a B.S. in Economics (Concentrations: Finance and Healthcare
 Management) from The Wharton School at the University of Pennsylvania. Before I
 returned to academia, I worked in mergers and acquisitions, private equity, and
 asset management in Seoul.
