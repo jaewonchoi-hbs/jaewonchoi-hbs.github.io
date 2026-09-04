@@ -369,6 +369,7 @@ a:visited { color: var(--color-accent); }
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.45;
+  text-wrap: pretty;
 }
 
 .paper-title a { font-weight: 500; }
@@ -462,6 +463,20 @@ a:visited { color: var(--color-accent); }
 .row-main { min-width: 0; }
 
 .row-title {
+  display: block;
+  font-weight: 500;
+  /* When a long title does wrap, don't leave one word stranded on the last
+     line. Ignored by browsers that don't support it, which just wrap normally. */
+  text-wrap: pretty;
+}
+
+/* The parenthetical field of study always sits on its own line under the
+   degree. Letting it wrap naturally instead would make the layout depend on
+   the visitor's system font: the Ph.D. line fits beside its degree in
+   -apple-system but not in Segoe UI or Roboto, so Mac and Windows visitors
+   would see different numbers of lines. A block keeps every entry identical
+   everywhere, and still wraps rather than overflowing on a narrow screen. */
+.degree-field {
   display: block;
   font-weight: 500;
 }

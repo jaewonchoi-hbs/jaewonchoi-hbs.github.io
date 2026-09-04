@@ -114,10 +114,11 @@ order it appears in the file, newest first — so add a new appointment at the
 
 ## Add a degree, an award, or a news item
 
-- **Education** — `data/education.yaml`. Put the field of study in the
-  `degree:` line as a parenthetical, and honours or your advisor in `note:`.
-  The `note:` field accepts Markdown, so `*summa cum laude*` renders in
-  italics.
+- **Education** — `data/education.yaml`. Keep `degree:` to the degree itself
+  and put the field of study in `field:` with its label (e.g.
+  `Concentration: Accounting`) — the parentheses are added for you, and the
+  whole parenthetical stays on one line. Honours or your advisor go in
+  `note:`, which accepts Markdown, so `*summa cum laude*` renders in italics.
 - **Honors and awards** — `data/awards.yaml`. `name:` and `year:` are all most
   entries need. Add an optional `note:` only when the award's name doesn't
   convey what it is (it also accepts Markdown).

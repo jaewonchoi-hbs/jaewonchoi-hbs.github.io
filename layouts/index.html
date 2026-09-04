@@ -170,7 +170,7 @@
       {{- range $education }}
       <li class="row">
         <span class="row-main">
-          <span class="row-title">{{ .degree }}</span>
+          <span class="row-title">{{ .degree }}{{ with .field }} <span class="degree-field">({{ . }})</span>{{ end }}</span>
           <span class="row-note">{{ .institution }}{{ with .note }} · {{ . | markdownify }}{{ end }}</span>
         </span>
         {{- with .year }}<span class="row-meta">{{ . }}</span>{{ end }}
